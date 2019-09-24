@@ -1,4 +1,9 @@
 KEY = {
+  1 => 'A',
+  2 => 'B',
+  3 => 'C',
+  4 => 'D',
+  5 => 'E',
 }
 
 # Define a method that takes an array of numbers to decode.
@@ -11,11 +16,6 @@ def decode(numbers)
     # Add it onto the string.
     text += letter
   end
-  1 => 'A',
-  2 => 'B',
-  3 => 'C',
-  4 => 'D',
-  5 => 'E',
   # Return the decoded string.
   return text
 end
